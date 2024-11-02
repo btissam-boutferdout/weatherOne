@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=à, initial-scale=1.0" />
+    <title>WeatherApp</title>
+  </head>
+  <body>
+    <!--workStart-->
+    <div class="father-div">
+      <div class="div-div">
+        <div class="container">
+          <div class="searchBox">
+            <i class="fa-sharp fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Enter your location" />
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+          <!--part2-->
+          <div class="weatherBox">
+            <img src="images/rain.webp" alt="" />
+            <p class="temperateur">16 <span>°C</span></p>
+            <p class="description">Clear Sky</p>
+          </div>
+          <!--part3-->
+          <div class="detailsBox">
+            <div class="humidity">
+              <div class="icon"><i class="fa-solid fa-water"></i></div>
+              <div>
+                <p class="para">0 %</p>
+                <p class="para">Humidity</p>
+              </div>
+            </div>
+            <div class="wind">
+              <div class="icon"><i class="fa-solid fa-wind"></i></div>
+              <div>
+                <p class="para">0 Km/h</p>
+                <p class="para">wind speed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

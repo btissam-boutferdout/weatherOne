@@ -1,0 +1,77 @@
+.container {
+  background-color: rgb(48, 106, 126);
+  width: 400px;
+  padding: 25px;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  box-shadow: 10px 10px 10px gray;
+}
+.searchBox {
+  box-shadow: inset 0px 4px 8px wheat;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  border-radius: 35px;
+  display: inline;
+}
+input {
+  width: 230px;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  background-color: transparent;
+  font-size: large;
+  padding-left: 15px;
+}
+input::placeholder {
+  color: white;
+}
+button {
+  background-color: transparent;
+  border: none;
+  font-size: large;
+  cursor: pointer;
+  color: white;
+}
+.fa-location-dot {
+  font-size: large;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+.temperateur {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.description {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 0px;
+  text-align: center;
+}
+.detailsBox {
+  display: flex;
+  justify-content: space-around;
+}
+.humidity,
+.wind {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.fa-water,
+.fa-wind {
+  font-size: 60px;
+  margin-right: 20px;
+}
+.para {
+  font-size: 21px;
+}
+.div-div {
+  display: flex;
+  justify-content: center;
+}
